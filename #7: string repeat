@@ -1,0 +1,3 @@
+let repeatStringNumTimes = (str, num) => num > 0 ? str + repeatStringNumTimes(str, num - 1) : ''
+
+repeatStringNumTimes("abc", 3);
