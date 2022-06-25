@@ -1,0 +1,9 @@
+let bouncer = arr => {
+  let list = []
+  for (let x = 0; x < arr.length; x++) {
+    if (arr[x]) list.push(arr[x])
+  }
+  return list 
+}
+
+bouncer([7, "ate", "", false, 9])
