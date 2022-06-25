@@ -1,0 +1,2 @@
+let getIndexToIns = (arr, num) => arr.filter(x => num > x).length
+getIndexToIns([40, 60], 50);
